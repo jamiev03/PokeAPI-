@@ -1,0 +1,15 @@
+html {
+    background-color: #2b2b2b;
+}   
+body {
+    box-sizing: border-box; 
+    max-width: 100%;
+}
+.pokemon {
+    height: 200px;
+    width: 400px;
+    margin: 300px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 5px 10px 5px rgba(32, 32, 32, 0.5);
+}
