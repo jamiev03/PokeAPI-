@@ -15,9 +15,14 @@ const generateHtml = (data) => {
     console.log(data)
     const html = `
     <div class="name">${data.name}</div>
-    <img src="${data.sprites.front_default}>
+    <img src="${data.sprites.front_default}">
     <div class="details">
         <span>Height: ${data.height}</span>
+        <span>Weight: ${data.weight}</span>
     </div>
-    <div class="type">${data.types.type.name}</div>`
+    <div class="type">${data.types[0].type.name}</div>
+    `
+    const pokemonDiv = document.querySelector('.pokemon')
+    pokemonDiv.innerHTML = html
 }
+

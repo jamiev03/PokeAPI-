@@ -4,12 +4,35 @@ html {
 body {
     box-sizing: border-box; 
     max-width: 100%;
+    font-family: "Lato", sans-serif;
 }
 .pokemon {
-    height: 200px;
+    height: 400px;
     width: 400px;
-    margin: 300px auto;
+    margin: 200px auto;
     background: rgb(255, 255, 255);
     border-radius: 6px;
     box-shadow: 5px 10px 5px rgba(32, 32, 32, 0.5);
+}
+.name {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 30px 0;
+}
+img {
+    margin: 0 auto;
+    display: block;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+}
+.type {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
 }
